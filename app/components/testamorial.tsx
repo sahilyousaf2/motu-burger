@@ -12,7 +12,8 @@ const Testamorial = () => {
                             className="rounded-lg  w-[275px] h-[183px] sm:w-32 sm:h-32 md:w-40 md:h-40 object-cover shadow-lg"
                             src="/user.png"
                             alt="profile"
-
+                            width={275}
+                            height={183}
                         />
                     </div>
                     <div className="text-center mt-4">

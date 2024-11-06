@@ -1,12 +1,15 @@
 import React from 'react';
+import Image from 'next/image';
 import { CardBlogsProps } from '../types/allTypes';
-const BurgerCard = (Props:CardBlogsProps) => {
+const BurgerCard = (Props: CardBlogsProps) => {
   return (
     <div className='card' style={styles.card}>
-      <img 
-        src={Props.image} 
-        alt="Burger" 
+      <Image
+        src={Props.image}
+        alt="Burger"
         style={styles.image}
+        width={131}
+        height={102}
       />
       <h2 className='title dark:text-[#262625]' style={styles.title}>{Props.heading}</h2>
       <p className='timings dark:text-white' style={styles.timings}>{Props.day}</p>
@@ -20,7 +23,7 @@ const BurgerCard = (Props:CardBlogsProps) => {
 };
 
 const styles = {
-  card: { 
+  card: {
     backgroundColor: '#fff',
     marginBottom: '20px',
     marginTop: '20px',
