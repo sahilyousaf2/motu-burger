@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-
 const Testamorial = () => {
     return (
         <>
@@ -9,7 +8,7 @@ const Testamorial = () => {
                 <div className="w-[90%] max-w-2xl mt-6 md:mt-8 lg:mt-10 mx-auto dark:bg-black bg-white rounded-lg shadow-2xl p-4 sm:p-6 md:p-8 lg:p-10">
                     <h1 className='text-center dark:text-[#ffffff] text-2xl font-bold my-4'>Why Our Clients Choose Us</h1>
                     <div className="flex justify-center ">
-                        <img
+                        <Image
                             className="rounded-lg  w-[275px] h-[183px] sm:w-32 sm:h-32 md:w-40 md:h-40 object-cover shadow-lg"
                             src="/user.png"
                             alt="profile"
