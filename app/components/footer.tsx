@@ -25,21 +25,21 @@ const footer = () => {
                         <div className="links dark:text-white text-white">
                             <h1 className='text-2xl font-semibold mb-6 uppercase'>Links</h1>
                             <ul className="space-y-2">
-                                <Link href={"/"}>
-                                    <li>Home</li>
-                                </Link>
-                                <Link href={"/#about"}>
-                                    <li>About</li>
-                                </Link>
-                                <Link href={"/#Services"}>
-                                    <li>Serviecs</li>
-                                </Link>
-                                <Link href={"/#blogs"}>
-                                    <li>Blogs</li>
-                                </Link>
-                                <Link href={"/#testimonials"}>
-                                    <li>Testimorial</li>
-                                </Link>
+                                <li>
+                                    <Link href={"/"}>Home</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/#about"}>About</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/#Services"}>Services</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/#blogs"}>Blogs</Link>
+                                </li>
+                                <li>
+                                    <Link href={"/#testimonials"}>Testimonials</Link>
+                                </li>
                             </ul>
                         </div>
 
@@ -54,7 +54,7 @@ const footer = () => {
                         </div>
 
                         <div className="newslatter dark:text-white text-white">
-                            <h1 className='text-2xl font-semibold uppercase'>Newslatter</h1>
+                            <h1 className='text-2xl font-semibold uppercase'>Newsletter</h1>
                             <input type="text"
                                 placeholder='Enter Your Email'
                                 className='px-4 py-[18px] w-full max-w-[255px] h-[55px] my-5'

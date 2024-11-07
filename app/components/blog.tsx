@@ -7,7 +7,7 @@ const Blog = () => {
             <main className='min-h-[430px] w-full px-4 mt-[100px] py-8 md:py-0 dark:bg-black' id='blogs'>
                 <div className='max-w-[600px] mx-auto md:max-w-[1170px]'>
                     <div className='text-center font-bold text-[24px] md:text-[40px] dark:text-[#ffffff]'>
-                        <h2 >Cafes & Restaurants</h2>
+                        <h2>Cafes & Restaurants</h2>
                     </div>
                     <div className='text-[#333333] dark:text-white  md:text-[14px] text-[12px]  mt-[10px] text-center'>
                         <p>Search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
@@ -17,10 +17,7 @@ const Blog = () => {
                         <div>
                             <CardBlogs
                                 heading='Burger House'
-                                description='looking at its layout. The point of using
-                            Lorem Ipsum is that it has alooking at
-                            its layout. The point of using Lorem
-                            Ipsum is that it has a'
+                                description='looking at its layout. The point of using Lorem Ipsum is that it has a looking at its layout. The point of using Lorem Ipsum is that it has a'
                                 day='Monday - Saturday'
                                 time='09:00 - 18:00'
                                 image='/zinger.png'
@@ -30,10 +27,7 @@ const Blog = () => {
                         <div>
                             <CardBlogs
                                 heading='Burger House'
-                                description='looking at its layout. The point of using
-                            Lorem Ipsum is that it has alooking at
-                            its layout. The point of using Lorem
-                            Ipsum is that it has a'
+                                description='looking at its layout. The point of using Lorem Ipsum is that it has a looking at its layout. The point of using Lorem Ipsum is that it has a'
                                 day='Monday - Saturday'
                                 time='09:00 - 18:00'
                                 image='/beef.png'
@@ -43,10 +37,7 @@ const Blog = () => {
                         <div>
                             <CardBlogs
                                 heading='Burger House'
-                                description='looking at its layout. The point of using
-                            Lorem Ipsum is that it has alooking at
-                            its layout. The point of using Lorem
-                            Ipsum is that it has a'
+                                description='looking at its layout. The point of using Lorem Ipsum is that it has a looking at its layout. The point of using Lorem Ipsum is that it has a'
                                 day='Monday - Saturday'
                                 time='09:00 - 18:00'
                                 image='/roll.png'
@@ -56,10 +47,7 @@ const Blog = () => {
                         <div>
                             <CardBlogs
                                 heading='Burger House'
-                                description='looking at its layout. The point of using
-                            Lorem Ipsum is that it has alooking at
-                            its layout. The point of using Lorem
-                            Ipsum is that it has a'
+                                description='looking at its layout. The point of using Lorem Ipsum is that it has a looking at its layout. The point of using Lorem Ipsum is that it has a'
                                 day='Monday - Saturday'
                                 time='09:00 - 18:00'
                                 image='/fish.png'
@@ -69,10 +57,7 @@ const Blog = () => {
                         <div>
                             <CardBlogs
                                 heading='Burger House'
-                                description='looking at its layout. The point of using
-                            Lorem Ipsum is that it has alooking at
-                            its layout. The point of using Lorem
-                            Ipsum is that it has a'
+                                description='looking at its layout. The point of using Lorem Ipsum is that it has a looking at its layout. The point of using Lorem Ipsum is that it has a'
                                 day='Monday - Saturday'
                                 time='09:00 - 18:00'
                                 image='/sweet.png'
@@ -82,10 +67,7 @@ const Blog = () => {
                         <div>
                             <CardBlogs
                                 heading='Burger House'
-                                description='looking at its layout. The point of using
-                            Lorem Ipsum is that it has alooking at
-                            its layout. The point of using Lorem
-                            Ipsum is that it has a'
+                                description='looking at its layout. The point of using Lorem Ipsum is that it has a looking at its layout. The point of using Lorem Ipsum is that it has a'
                                 day='Monday - Saturday'
                                 time='09:00 - 18:00'
                                 image='/sweet2.png'
@@ -93,8 +75,8 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-center md:w-[1170px] mx-auto mt-[30px]'>
-                    <button className='bg-[#FF423B] w-[140px] h-[40px] hover:bg-[#ff7672] text-white px-8 py-2 '>See More</button>
+                <div className='flex justify-center items-center mt-[30px]'>
+                    <button className='bg-[#FF423B] w-[140px] h-[40px] hover:bg-[#ff7672] text-white px-8 py-2'>See More</button>
                 </div>
             </main>
         </>

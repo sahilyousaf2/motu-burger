@@ -25,12 +25,12 @@ const Hero = () => {
                         {/* city */}
                         <div className="flex flex-col md:flex-row w-full gap-4 mt-6">
                             <div className="relative w-full md:w-1/3 shadow-lg">
-                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black        focus:outline-none focus:border-[#FF423B] rounded-md">
+                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
                                     <option value="" disabled selected>Select City</option>
-                                    <option value="new-york">Karachi</option>
-                                    <option value="los-angeles">Lahore</option>
-                                    <option value="chicago">Islamabad</option>
-                                    <option value="houston">Peshawar</option>
+                                    <option value="karachi">Karachi</option>
+                                    <option value="lahore">Lahore</option>
+                                    <option value="islamabad">Islamabad</option>
+                                    <option value="peshawar">Peshawar</option>
                                 </select>
                                 <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
                                     <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,11 +41,11 @@ const Hero = () => {
                             {/* restaurant */}
                             <div className="relative w-full md:w-1/3 shadow-lg">
                                 <div>
-                                    <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md">
-                                        <option value="" disabled selected>Restaurant</option>
-                                        <option value="burger-king">KFC</option>
+                                    <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
+                                        <option value="" disabled>Restaurant</option>
+                                        <option value="kfc">KFC</option>
                                         <option value="mcdonalds">McDonald's</option>
-                                        <option value="wendys">Burger King</option>
+                                        <option value="burger-king">Burger King</option>
                                         <option value="subway">Subway</option>
                                     </select>
                                 </div>
@@ -57,8 +57,8 @@ const Hero = () => {
                             </div>
                             {/* food */}
                             <div className="relative w-full md:w-1/3 shadow-lg">
-                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md">
-                                    <option value="" disabled selected>Food</option>
+                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
+                                    <option value="" disabled>Food</option>
                                     <option value="burger">Burger</option>
                                     <option value="pizza">Pizza</option>
                                     <option value="sandwich">Sandwich</option>
