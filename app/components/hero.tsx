@@ -1,15 +1,5 @@
 'use client'
 import Image from 'next/image'
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
 
 const Hero = () => {
     return (
@@ -20,7 +10,7 @@ const Hero = () => {
                 </div>
                 <div className="text text-center md:text-left md:ml-20 ml-0 bg-white dark:bg-black">
                     <h1 className='text-3xl md:text-5xl text-[#262625] dark:text-white font-bold pb-2'>Food Delivery</h1>
-                    <p className='text-[#333333] text-[14px] text-center dark:text-white md:text-left w-full md:w-auto mx-auto md:mx-0'>Search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                    <p className='text-[#333333] text-[14px] text-center dark:text-white md:text-left w-full md:w-auto mx-auto md:mx-0'>Search for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy.</p>
                     <div className='w-full md:w-[580px] md:h-[90px] flex items-center'>
                         {/* city */}
                         <div className="flex flex-col md:flex-row w-full gap-4 mt-6">
@@ -44,7 +34,7 @@ const Hero = () => {
                                     <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
                                         <option value="" disabled>Restaurant</option>
                                         <option value="kfc">KFC</option>
-                                        <option value="mcdonalds">McDonald's</option>
+                                        <option value="mcdonalds">McDonald&apos;s</option>
                                         <option value="burger-king">Burger King</option>
                                         <option value="subway">Subway</option>
                                     </select>

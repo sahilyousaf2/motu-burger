@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-Link
 
-const footer = () => {
+const Footer = () => {
     return (
         <>
             <footer>
@@ -79,4 +78,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer

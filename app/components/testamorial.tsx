@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-const Testamorial = () => {
+
+const Testimonial = () => {
     return (
         <>
             <main id='testimonials' className='dark:bg-black'>
@@ -25,7 +26,7 @@ const Testamorial = () => {
                         <p>
                             It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
-                            normal distribution of letters, as opposed to using 'Content here, content here', making it
+                            normal distribution of letters, as opposed to using &apos;Content here, content here&apos;, making it
                             look
                         </p>
                     </div>
@@ -42,7 +43,7 @@ const Testamorial = () => {
     )
 }
 
-export default Testamorial
+export default Testimonial
 
 
 

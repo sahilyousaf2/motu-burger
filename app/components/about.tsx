@@ -19,10 +19,10 @@ const About = () => {
                         <h1 className='font-bold text-2xl md:text-[40px] dark:text-[#262625] text-white text-center md:text-left'>About Us</h1>
                         <div className='max-w-[550px] text-sm md:text-[14px] dark:text-[#262625] text-white mt-4'>
                             <p className='text-center md:text-left'>
-                                Content here, content here', making it look like readable English.
+                                Content here, content here&apos;, making it look like readable English.
                                 Many desktop publishing packages and web page editors now use
                                 Lorem Ipsum as their default model text, and a search for Content here, content
-                                here', making it look like readable English.
+                                here&apos;, making it look like readable English.
                                 Many desktop publishing packages and web page editors now use
                                 Lorem Ipsum as their default model text, and a search for
                             </p>

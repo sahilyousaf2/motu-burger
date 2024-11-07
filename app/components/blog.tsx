@@ -10,7 +10,7 @@ const Blog = () => {
                         <h2>Cafes & Restaurants</h2>
                     </div>
                     <div className='text-[#333333] dark:text-white  md:text-[14px] text-[12px]  mt-[10px] text-center'>
-                        <p>Search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                        <p>Search for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy.</p>
                     </div>
                     <div className='grid grid-cols-1 w-full md:w-[1170px] mx-auto md:grid-cols-3 gap-4 mt-[30px]'>
                         {/* card 1 */}
