@@ -4,18 +4,18 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <>
-            <main className='mt-4 md:mt-[90px] mx-auto max-w-[600px] md:max-w-[1170px] grid grid-cols-1 md:grid-cols-[290px_640px] gap-8 px-4 bg-white dark:bg-black'>
-                <div className='image flex justify-center md:justify-start bg-white dark:bg-black'>
+            <main className='mt-4 md:mt-[90px] mx-auto max-w-[600px] md:max-w-[1170px] grid grid-cols-1 md:grid-cols-[290px_640px] gap-8 px-4 bg-white '>
+                <div className='image flex justify-center md:justify-start bg-white '>
                     <Image src="/banner-img.png" alt="hero" width={510} height={276} className='w-full h-auto max-w-[300px] md:max-w-[350px]' priority />
                 </div>
-                <div className="text text-center md:text-left md:ml-20 ml-0 bg-white dark:bg-black">
+                <div className="text text-center md:text-left md:ml-20 ml-0 bg-white ">
                     <h1 className='text-3xl md:text-5xl text-[#262625] dark:text-white font-bold pb-2'>Food Delivery</h1>
                     <p className='text-[#333333] text-[14px] text-center dark:text-white md:text-left w-full md:w-auto mx-auto md:mx-0'>Search for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy.</p>
                     <div className='w-full md:w-[580px] md:h-[90px] flex items-center'>
                         {/* city */}
                         <div className="flex flex-col md:flex-row w-full gap-4 mt-6">
                             <div className="relative w-full md:w-1/3 shadow-lg">
-                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
+                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white  focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
                                     <option value="" disabled selected>Select City</option>
                                     <option value="karachi">Karachi</option>
                                     <option value="lahore">Lahore</option>
@@ -31,7 +31,7 @@ const Hero = () => {
                             {/* restaurant */}
                             <div className="relative w-full md:w-1/3 shadow-lg">
                                 <div>
-                                    <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
+                                    <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white  focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
                                         <option value="" disabled>Restaurant</option>
                                         <option value="kfc">KFC</option>
                                         <option value="mcdonalds">McDonald&apos;s</option>
@@ -47,7 +47,7 @@ const Hero = () => {
                             </div>
                             {/* food */}
                             <div className="relative w-full md:w-1/3 shadow-lg">
-                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white dark:bg-black focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
+                                <select className="cursor-pointer w-full px-4 py-2 border appearance-none bg-white  focus:outline-none focus:border-[#FF423B] rounded-md" defaultValue="">
                                     <option value="" disabled>Food</option>
                                     <option value="burger">Burger</option>
                                     <option value="pizza">Pizza</option>

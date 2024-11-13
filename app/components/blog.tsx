@@ -4,9 +4,9 @@ import CardBlogs from './card-blogs'
 const Blog = () => {
     return (
         <>
-            <main className='min-h-[430px] w-full px-4 mt-[100px] py-8 md:py-0 dark:bg-black' id='blogs'>
+            <main className='min-h-[430px] w-full px-4 mt-[100px] py-8 md:py-0 ' id='blogs'>
                 <div className='max-w-[600px] mx-auto md:max-w-[1170px]'>
-                    <div className='text-center font-bold text-[24px] md:text-[40px] dark:text-[#ffffff]'>
+                    <div className='text-center font-bold text-[24px] md:text-[40px] '>
                         <h2>Cafes & Restaurants</h2>
                     </div>
                     <div className='text-[#333333] dark:text-white  md:text-[14px] text-[12px]  mt-[10px] text-center'>

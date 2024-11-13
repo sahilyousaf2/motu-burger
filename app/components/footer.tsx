@@ -5,9 +5,9 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <main className='w-full min-h-[300px] bg-[#363636] dark:bg-[#333333] p-8'>
+                <main className='w-full min-h-[300px] bg-[#363636]  p-8'>
                     <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
-                        <div className="about dark:text-white text-white">
+                        <div className="about  text-white">
                             <h1 className='text-2xl font-semibold uppercase'>About</h1>
                             <p className='max-w-[280px] mt-5 text-sm'>
                                 It is a long established fact
@@ -21,7 +21,7 @@ const Footer = () => {
                             </p>
                         </div>
 
-                        <div className="links dark:text-white text-white">
+                        <div className="links  text-white">
                             <h1 className='text-2xl font-semibold mb-6 uppercase'>Links</h1>
                             <ul className="space-y-2">
                                 <li>
@@ -42,7 +42,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="follow dark:text-white text-white">
+                        <div className="follow  text-white">
                             <h1 className='text-2xl font-semibold mb-6 uppercase'>Follow us</h1>
                             <ul className="space-y-2">
                                 <li>Facebook</li>
@@ -52,7 +52,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="newslatter dark:text-white text-white">
+                        <div className="newslatter  text-white">
                             <h1 className='text-2xl font-semibold uppercase'>Newsletter</h1>
                             <input type="text"
                                 placeholder='Enter Your Email'

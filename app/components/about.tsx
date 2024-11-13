@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div className="text mt-8 md:mt-0 md:ml-5 w-full md:w-auto">
                     <div>
-                        <h1 className='font-bold text-2xl md:text-[40px] dark:text-[#262625] text-white text-center md:text-left'>About Us</h1>
-                        <div className='max-w-[550px] text-sm md:text-[14px] dark:text-[#262625] text-white mt-4'>
+                        <h1 className='font-bold text-2xl md:text-[40px]  text-white text-center md:text-left'>About Us</h1>
+                        <div className='max-w-[550px] text-sm md:text-[14px]  text-white mt-4'>
                             <p className='text-center md:text-left'>
                                 Content here, content here&apos;, making it look like readable English.
                                 Many desktop publishing packages and web page editors now use

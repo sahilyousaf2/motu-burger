@@ -1,13 +1,12 @@
 'use client'
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { ModeToggle } from './theme-btn'
 const Header = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     return (
         <>
             <header className=" shadow-lg   ">
-                <main className='max-w-[600px] mx-auto md:max-w-[1170px] py-4 bg-white dark:bg-black'>
+                <main className='max-w-[600px] mx-auto md:max-w-[1170px] py-4 bg-white '>
 
 
                     <nav className="flex items-center justify-between px-4">
@@ -24,7 +23,6 @@ const Header = () => {
                             <Link href="/#about" className="hover:text-[#FF423B]">{">"}About</Link>
                             <Link href="/#blogs" className="hover:text-[#FF423B]">{">"}Blogs</Link>
                             <Link href="/#testimonials" className="hover:text-[#FF423B]">{">"}Testimonial</Link>
-                            <ModeToggle />
                         </div>
 
                         {/* Mobile Menu Button */}
@@ -38,14 +36,13 @@ const Header = () => {
 
                         {/* Mobile Menu */}
                         {isOpen && (
-                            <div className="absolute dark:bg-black top-16 left-0 right-0 bg-white shadow-md md:hidden">
+                            <div className="absolute  top-16 left-0 right-0 bg-white shadow-md md:hidden">
                                 <div className="flex flex-col items-center py-4 space-y-4">
                                     <Link href="/" className="hover:text-gray-600">Home</Link>
                                     <Link href="/#about" className="hover:text-gray-600">About</Link>
                                     <Link href="/#Services" className="hover:text-gray-600">Services</Link>
                                     <Link href="/#blogs" className="hover:text-gray-600">Blogs</Link>
                                     <Link href="/#testimonials" className="hover:text-gray-600">Testimonial</Link>
-                                    <ModeToggle />
                                 </div>
                             </div>
                         )}

@@ -9,7 +9,6 @@ import Footer from './components/footer'
 const Home = () => {
   return (
     <>
-      <div className='bg-white dark:bg-black'>
         <Header />
         <Hero />
         <Services />
@@ -17,7 +16,7 @@ const Home = () => {
         <Blog />
         <Testamorial />
         <Footer />
-      </div>
+
     </>
   )
 }
